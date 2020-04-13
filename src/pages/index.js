@@ -16,13 +16,14 @@ const IndexPage = () => (
       <div class="h-block">Hana<br/>Tokumoto</div>
 
       <SEO title="Home" />
-      <img src={icon_github} alt="icon github" style={{ width: '20px', margin: '0 auto 20px' }} />
-      <img src={icon_instagram} alt="icon instagram" style={{ width: '20px', margin: '0 auto 20px' }} />
-      <img src={icon_twitter} alt="icon twitter" style={{ width: '20px', margin: '0 auto 20px' }} />
-      <img src={icon_pintarest} alt="icon twitter" style={{ width: '20px', margin: '0 auto 20px' }} />
-
-      <div className="main-image" style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+      <div className="main-image" style={{ maxWidth: `110px`, margin: `0 auto 2rem` }}>
         <Image />
+      </div>
+      <div className="icon-set">
+        <img src={icon_github} alt="icon github" className="icon-set-item" />
+        <img src={icon_instagram} alt="icon instagram" className="icon-set-item" />
+        <img src={icon_twitter} alt="icon twitter" className="icon-set-item" />
+        <img src={icon_pintarest} alt="icon twitter" className="icon-set-item" />
       </div>
       {/* <Link to="/page-2/">Go to page 2</Link> */}
     </div>

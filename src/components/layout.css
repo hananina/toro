@@ -1,14 +1,25 @@
 body {
   background-color: #FFF5FF;
+  background-color: #ffcdff6e;
+}
+
+.icon-set {
+  text-align: center;
+}
+
+.icon-set-item {
+  margin: .5rem;
+  width: 28px;
 }
 
 .main-image img {
-  border: solid #fff 5px;
+  border: solid #FEFF95 5px;
   border-radius: 50%;
+  filter: opacity(.6);
 }
 
 .l-container {
-  padding: 0 0 0 3rem;
+  padding: 0 4rem 10rem 4rem;
   position: relative;
 }
 
@@ -32,6 +43,7 @@ body {
   writing-mode: vertical-rl;
   position: absolute;
   left: 0;
+  bottom: 0;
 }
 
 .h-block {
@@ -39,7 +51,10 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #8977CE;
-  margin-bottom: 1rem;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 47px;
 }
 
 html {
