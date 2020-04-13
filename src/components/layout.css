@@ -1,6 +1,7 @@
 body {
   background-color: #FFF5FF;
   background-color: #ffcdff6e;
+  background-color: #8c7ad170;
 }
 
 .icon-set {
@@ -25,7 +26,7 @@ body {
 
 .header {
   text-align: center;
-  color: #fff;
+  color: #FFF5FF;
   display: flex;
   justify-content: space-between;
   font-size: 24px;
@@ -40,6 +41,7 @@ body {
   letter-spacing: 2px;
   color: #FEFF91;
   color: #FFA6D4;
+  color: #FFF5FF;
   writing-mode: vertical-rl;
   position: absolute;
   left: 0;

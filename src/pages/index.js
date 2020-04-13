@@ -20,10 +20,18 @@ const IndexPage = () => (
         <Image />
       </div>
       <div className="icon-set">
-        <img src={icon_github} alt="icon github" className="icon-set-item" />
-        <img src={icon_instagram} alt="icon instagram" className="icon-set-item" />
-        <img src={icon_twitter} alt="icon twitter" className="icon-set-item" />
-        <img src={icon_pintarest} alt="icon twitter" className="icon-set-item" />
+        <a href="https://github.com/hananina">
+          <img src={icon_github} alt="icon github" className="icon-set-item" />
+        </a>
+        <a href="https://www.instagram.com/hananiiina/">
+          <img src={icon_instagram} alt="icon instagram" className="icon-set-item" />
+        </a>
+        <a href="https://twitter.com/hananiiina">
+          <img src={icon_twitter} alt="icon twitter" className="icon-set-item" />
+        </a>
+        <a href="https://www.pinterest.com/hananiina/">
+          <img src={icon_pintarest} alt="icon twitter" className="icon-set-item" />
+        </a>
       </div>
       {/* <Link to="/page-2/">Go to page 2</Link> */}
     </div>
