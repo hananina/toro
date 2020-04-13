@@ -30,15 +30,15 @@ const Layout = ({ children }) => {
         style={{
           margin: `0 auto`,
           maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
+          padding: `0 2rem 2rem`,
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
+        {/* <footer>
+          © {new Date().getFullYear()}
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+
+        </footer> */}
       </div>
     </>
   )

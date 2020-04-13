@@ -1,3 +1,47 @@
+body {
+  background-color: #FFF5FF;
+}
+
+.main-image img {
+  border: solid #fff 5px;
+  border-radius: 50%;
+}
+
+.l-container {
+  padding: 0 0 0 3rem;
+  position: relative;
+}
+
+.header {
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  border-bottom: 2px solid;
+  margin: 2rem;
+  padding-bottom: 1rem;
+}
+
+.v-block {
+  font: 20px/1 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #FEFF91;
+  color: #FFA6D4;
+  writing-mode: vertical-rl;
+  position: absolute;
+  left: 0;
+}
+
+.h-block {
+  font: 30px/1 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #8977CE;
+  margin-bottom: 1rem;
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
